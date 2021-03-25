@@ -3,6 +3,17 @@
   color: white;
 }
 
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: -0.5rem;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+input {
+  text-align: center;
+}
+
 li {
   padding-bottom: 3px;
   color: black;
@@ -14,17 +25,6 @@ p {
   text-align: center;
   font-size: xx-large;
   font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-h2 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  margin-top: -0.5rem;
-  font-size: 40px;
-  font-weight: bold;
-}
-
-input {
-  text-align: center;
 }
 
 .container {
