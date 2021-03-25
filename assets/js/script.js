@@ -82,7 +82,23 @@ var quizQuestions = [
     choiceB: "!!",
     choiceC: "/?",
     choiceD: "=!=",
+    correctAnswer: "d",
+  },
+  {
+    question: "What does API stand for?",
+    choiceA: "Application Programming Interface",
+    choiceB: "Application Protocol Ice",
+    choiceC: "A Problem Inside",
+    choiceD: "Also Program It",
     correctAnswer: "a",
+  },
+  {
+    question: "What does the 'prompt' tag do?",
+    choiceA: "Returns a boolean input",
+    choiceB: "Finds all like items",
+    choiceC: "Returns a string back to the user",
+    choiceD: "Multiplies 11,243 by 17",
+    correctAnswer: "c",
   },
 ];
 
@@ -177,8 +193,7 @@ function showScore() {
   gameoverDiv.style.display = "flex";
   clearInterval(timerInterval);
   highscoreInputName.value = "";
-  finalScoreEl.innerHTML =
-    "You got " + score + " questions correct! Good Job!";
+  finalScoreEl.innerHTML = "You got " + score + " questions correct! Good Job!";
 }
 
 function generateHighscores() {
