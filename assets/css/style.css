@@ -1,0 +1,135 @@
+:root {
+  background-color: rgb(77, 85, 102);
+  color: white;
+}
+
+li {
+  padding-bottom: 3px;
+  color: black;
+  list-style-type: none;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: -0.5rem;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+input {
+  text-align: center;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+button {
+  display: inline-block;
+  font-family: monospace;
+  background-color: darkcyan;
+  border-radius: 10px;
+  border: 5px darkcyan;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width: 200px;
+  margin-top: 3px;
+}
+
+#startpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#timer {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  font-size: 50px;
+}
+
+#quiz {
+  display: none;
+}
+
+#result {
+  display: none;
+}
+
+#gameover {
+  text-align: center;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+#highScore {
+  height: 1.5rem;
+  border: groove 2px;
+}
+
+#high-scorePage {
+  display: none;
+  width: 50%;
+  padding-bottom: 0.3rem;
+  background: white;
+}
+
+#highscore-header {
+  display: flex;
+  justify-content: space-around;
+  border-bottom-style: outset;
+  margin-bottom: 0.5rem;
+  background-color: darkcyan;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#highscoreContainer {
+  height: 100%;
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: darkcyan;
+}
+
+#initials {
+  margin: 0.5rem;
+  height: 1.75rem;
+}
+
+#highscore-initials {
+  display: inline-block;
+  padding-left: 9.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+#highscore-score {
+  float: right;
+  padding-right: 8.75rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+#finalScore {
+  font-size: x-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
