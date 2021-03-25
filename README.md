@@ -1,6 +1,6 @@
 # quiz-hw4
 
-THis assignment was a great was to practice JavaScript and CSS again. I enjoyed figuring out how to make each question apear after the previous one and all the moving parts behind the sceens.
+This assignment was a great was to practice JavaScript and CSS again. I enjoyed figuring out how to make each question apear after the previous one and all the moving parts behind the sceens.
 
 
 https://nicog124.github.io/quiz-hw4/
